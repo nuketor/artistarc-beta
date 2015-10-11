@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css" href="../css/user_post.css" />
     
     <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
     <link href="../css/style.css" rel="stylesheet">
     <!--[panel]-->
     <link href="../css/custom.bootstrap.css" rel="stylesheet">
@@ -43,13 +46,13 @@
 
 </head>
 
-<body id="body">
+<body id="body" data-spy="scroll" data-target=".navbar-fixed-top">
 <div class="container-fluid">
 
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top zero-space shado" role="navigation">
-        <div class="container-fluid" style="margin:0px">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -85,7 +88,7 @@
 	                        <span class=" glyphicon glyphicon-bell" aria-hidden="true"></span>
                         </a>
                     </li>
-                    <!--<li>
+                    <li>
 	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic"></a>
 		                    <ul class="dropdown-menu">
@@ -94,12 +97,12 @@
                                         <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
                                         <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
 	                            </ul>
-                    </li>-->
+                    </li>
                 </ul>
                 </div>
             </div> 
             <!-- /.navbar-collapse -->
-                        <div class="navbar-header user-settings" style="float:right">
+                       <!-- <div class="navbar-header user-settings" style="float:right">
                         
 	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic">
@@ -111,7 +114,8 @@
                                     <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
                                     <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
                             </ul>
-	                 </div>
+	                 </div>-->
+            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
@@ -379,6 +383,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+    
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
     
 </body>
 <script type="text/javascript" src="script.js"></script>
