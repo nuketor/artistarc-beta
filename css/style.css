@@ -5,7 +5,15 @@
  font-family: 'Nunito', sans-serif;
  font-size: 14px;
  line-height: 1.42857143;
+ width: 100%;
+ height: 100%;
 }
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 b, strong 
 {
  -webkit-text-size-adjust: 100%;
@@ -173,7 +181,7 @@ b, strong
 }
 .navbar-inverse
 {
- background-color: rgba(0, 137, 208, 0.82);
+ background-color: rgba(24, 35, 41, 0.84));
  border-color: #E6E3E3;
 }
 
