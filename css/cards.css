@@ -1,0 +1,25 @@
+/*-------------------------*/
+/*-------stream con--------*/
+
+.stream {
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.77);
+  position:absolute;
+  top:-100%;
+  z-index:1;
+  padding:0!important;
+  margin:0!important;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  overflow:hidden;
+}
+
+stream.active { left: 50!important; }
+#stream.active { 
+  top: 0;
+}
+
+/*-------------------------*/
+/*--------- POST ----------*/
