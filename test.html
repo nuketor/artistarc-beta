@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Artistarc - Beta</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--[panel]-->
+    <link href="css/custom.bootstrap.css" rel="stylesheet">
+    <!--[padding, margin, grid]-->
+    <link href="css/helper.css" rel="stylesheet" type="text/css">
+    <link href="css/cards.css" rel="stylesheet" type="text/css">
+    
+    
+    <!-- TEST CSS -->
+    <link href="css/test.css" rel="stylesheet">
+    
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/waves-effect.css" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <!-- Login -->
+    <script src="js/login.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+
+</head>
+
+<body id="body">
+<div class="container-fluid">
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top zero-space shado" role="navigation">
+        <div class="container-fluid" style="margin:0px">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                  <h3 style="margin-top:-5px"  id="mobile-nav">Artistarc
+                  <small> BETA
+                        <span class=" glyphicon glyphicon-menu-hamburger"  style="margin-left:10px;color:white" aria-hidden="true" id="mobile-nav"></span>
+                  </small></h3></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                </ul>
+                <div>
+                <ul class="nav navbar-nav" style="float:right;padding-right:15px;">
+                    <li>
+                        <a href="#">
+	                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <li class="dropdown hidden-xs">
+                        <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">
+	                        <span class=" glyphicon glyphicon-bell" aria-hidden="true"></span>
+                        </a>
+                    </li>
+                    <!--<li>
+	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic"></a>
+		                    <ul class="dropdown-menu">
+                                        <li><a href=""><i class="md md-face-unlock"></i> Profile</a></li>
+                                        <li><a href=""><i class="md md-settings"></i> Settings</a></li>
+                                        <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
+                                        <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
+	                            </ul>
+                    </li>-->
+                </ul>
+                </div>
+            </div> 
+            <!-- /.navbar-collapse -->
+                        <div class="navbar-header user-settings" style="float:right">
+                        
+	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic">
+	                    </a>
+	                    <ul class="dropdown-menu">
+		                    <li id="body"><h4 class="text-center"><small><?php echo $_SESSION['UserName'] ; ?></small><h4></li>
+                                    <li><a href=""><i class="md md-face-unlock"></i> Profile</a></li>
+                                    <li><a href=""><i class="md md-settings"></i> Settings</a></li>
+                                    <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
+                                    <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
+                            </ul>
+	                 </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!-- hamburger menu -->
+
+    <!-- hamburger -->
+    <script src="js/main.js"></script>
+    
+    <nav id="n-nav" >
+      <ul class="n-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+<!-- [ Post Body ] -->
+<div class="container-fluid m-t-70">
+	<div class="row">
+	
+		<!-- [ row-1 ] -->
+		<div class="col-md-3">
+		<div class="row">
+		
+			<!-- cards -->
+			<div class="col-md-12">
+				<div class="panel panel-default panel-fill">
+					<div class="panel-heading"> 
+						<h3 class="panel-title">Personal Information</h3> 
+					</div>
+					<div class="panel-body">
+							Panel content
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-12">
+				<div class="panel panel-default panel-fill">
+				<div class="panel-heading"> 
+					<h3 class="panel-title">Personal Information</h3> 
+				</div>
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
+			</div>
+		
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		</div>
+		<!-- [ /. row-1 ] -->
+		
+		<!-- [ row-2 ] -->
+		<div class="col-md-6">
+		<div class="row">
+		
+			<!-- [ cards ] -->
+			
+			<div class="col-md-12">
+				<div class="panel panel-default panel-fill">
+					<div class="panel-body p-0 m-0" >
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-12">
+				<div class="panel panel-default panel-fill" data-toggle="modal" data-target="#myModal">
+					<div class="panel-heading"> 
+						<h3 class="panel-title">Post #1</h3> 
+					</div>
+					<div class="panel-body">
+							Panel content
+					</div>
+				</div>
+			        <!-- [ Modal - card-expanded ]-->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				      </div>
+				      <div class="modal-body">
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				        ...<br>
+				      </div>
+				      <div class="modal-footer">
+				        <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				        <button type="button" class="btn btn-primary">Save changes</button>-->
+				      </div>
+				    </div>
+				  </div>
+				 </div>
+				<!-- [ /. Modal - card-expanded ]-->
+			</div>
+		
+			<div class="col-md-12">
+				<div class="panel panel-default panel-fill">
+					<div class="panel-heading"> 
+						<h3 class="panel-title">Post #2 <small>Ayuit Biu</small></h3> 
+					</div>
+					<div class="about-info-p">
+					<div class="panel-body">
+						<strong>Full Name</strong>
+						<p class="text-muted">Panel content</p>
+						
+						<form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+							<div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+							<hr id="line">
+							<div id="selectImage">
+								<label>Select Your Image</label><br/>
+								<input type="file" name="file" id="file" required />
+								<input type="submit" value="Upload" class="submit" />
+							</div>
+						</form>
+						<h4 id='loading' >loading..</h4>
+						<div id="message"></div>
+						<script>
+							$(document).ready(function (e) {
+$("#uploadimage").on('submit',(function(e) {
+e.preventDefault();
+$("#message").empty();
+$('#loading').show();
+$.ajax({
+url: "./upload.php", // Url to which the request is send
+type: "POST",             // Type of request to be send, called as method
+data: new FormData(this), // Data sent to server, a set of key/value pairs (i.e. form fields and values)
+contentType: false,       // The content type used when sending data to the server.
+cache: false,             // To unable request pages to be cached
+processData:false,        // To send DOMDocument or non processed data file it is set to false
+success: function(data)   // A function to be called if request succeeds
+{
+$('#loading').hide();
+$("#message").html(data);
+}
+});
+}));
+
+// Function to preview image after validation
+$(function() {
+$("#file").change(function() {
+$("#message").empty(); // To remove the previous error message
+var file = this.files[0];
+var imagefile = file.type;
+var match= ["image/jpeg","image/png","image/jpg"];
+if(!((imagefile==match[0]) || (imagefile==match[1]) || (imagefile==match[2])))
+{
+$('#previewing').attr('src','noimage.png');
+$("#message").html("<p id='error'>Please Select A valid Image File</p>"+"<h4>Note</h4>"+"<span id='error_message'>Only jpeg, jpg and png Images type allowed</span>");
+return false;
+}
+else
+{
+var reader = new FileReader();
+reader.onload = imageIsLoaded;
+reader.readAsDataURL(this.files[0]);
+}
+});
+});
+function imageIsLoaded(e) {
+$("#file").css("color","green");
+$('#image_preview').css("display", "block");
+$('#previewing').attr('src', e.target.result);
+$('#previewing').attr('width', '250px');
+$('#previewing').attr('height', '230px');
+};
+});
+						</script>
+					</div>
+					</div>
+				</div>
+			</div>
+			<!-- [ /. cards ] -->
+		</div>
+		</div>
+		<!-- [ /. row-2] -->
+		
+		<!-- [ row-3 ] -->
+		<div class="col-md-3">
+		<div class="row">
+		
+			<!-- [ cards ] -->
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading"> 
+						 <h3 class="panel-title">Post #2 <small>Ayuit Biu</small></h3> 
+					</div>
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						Panel content
+					</div>
+				</div>
+			</div>
+			<!-- [ /. cards ] -->
+		</div>
+		</div>
+		<!-- [ /. row-3 ] -->
+	</div>
+</div>
+<!-- [ /. Post Body ] -->
+
+<!-- Footer -->
+    
+    <hr style="margin:4px">
+    <footer>
+        <div class="row">
+             <div class="col-lg-12">
+                 <p style="float:right">Copyright &copy; Artistarc 2015</p>
+             </div>
+        </div>
+    <!-- /.row -->
+    </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    
+</body>
+
+</html>
