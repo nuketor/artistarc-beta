@@ -176,12 +176,15 @@ b, strong
 
 /*--------------------*/
 /*--- navbar-start ---*/
+/*-----scrollbar -----*/
+/*--------------------*/
+
 .navbar-fixed-top {
  z-index:1030!important;
 }
 .navbar-inverse
 {
- background-color: rgba(24, 35, 41, 0.84));
+ background-color: rgba(0, 137, 208, 0.82);
  border-color: #E6E3E3;
 }
 
@@ -202,6 +205,20 @@ b, strong
 
 .notf > li:hover {
     background-color: #38608C;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+	background:rgba(0, 137, 208, 0.82)!important;
+    }
 }
 
 /*--------------------*/
