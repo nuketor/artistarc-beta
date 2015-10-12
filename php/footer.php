@@ -21,6 +21,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.js"></script>
     
+    
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    
 </body>
 
 </html>
