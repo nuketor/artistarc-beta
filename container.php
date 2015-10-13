@@ -82,7 +82,7 @@
 					</div>
 					<div class="portlet-title" style="margin-bottom:0px">
 						<div class="caption ">
-							<button class="btn waves-effect waves-light form-group" id="post_submit" value="" type="submit">POST</button>
+							<button class="btn waves-light form-group" id="post_submit" value="" type="submit">POST</button>
 							
 						</div>
 						<ul class="nav nav-tabs">
@@ -166,20 +166,9 @@
 				 </div>
 				<!-- [ /. Modal - card-expanded ]-->
 			</div>
-		
-			<div class="col-md-12">
-				<div class="panel panel-default panel-fill">
-					<div class="panel-heading"> 
-						<h3 class="panel-title">Post #2 <small>Ayuit Biu</small></h3> 
-					</div>
-					<div class="about-info-p">
-					<div class="panel-body">
-						<strong>Full Name</strong>
-						<p class="text-muted">Panel content</p>
-					</div>
-					</div>
-				</div>
-			</div>
+			
+<!-- 			<img id='loading' src='img/loading.gif'> -->
+			<div id="demoajax" cellspacing="0"></div>
 			<!-- [ /. cards ] -->
 		</div>
 		</div>
