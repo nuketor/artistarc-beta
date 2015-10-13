@@ -62,12 +62,12 @@ include 'php/navbar_h.php';
 include 'stream.php';
 include 'container.php';
 
-		echo "UserName : ".$_SESSION['UserName'] . "</br>";				
-		echo "UserEmail : ".$_SESSION['UserEmail'] . "</br>";
-		echo "UserContact : ".$_SESSION['UserContact'] . "</br>";
-		echo "UserCity : ".$_SESSION['UserCity'] . "</br>";
-		echo "UserClass : ".$_SESSION['UserClass'] . "</br>"; 
-		echo "testVar : ".$_SESSION['testVar'] . "</br>";
+// 		echo "UserName : ".$_SESSION['UserName'] . "</br>";				
+// 		echo "UserEmail : ".$_SESSION['UserEmail'] . "</br>";
+// 		echo "UserContact : ".$_SESSION['UserContact'] . "</br>";
+// 		echo "UserCity : ".$_SESSION['UserCity'] . "</br>";
+// 		echo "UserClass : ".$_SESSION['UserClass'] . "</br>"; 
+// 		echo "testVar : ".$_SESSION['testVar'] . "</br>";
 
 }
 
