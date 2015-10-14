@@ -1,7 +1,7 @@
 <!-- [ stream container ] -->
 <div class="container-fluid stream" id="stream" aria-hidden="true">
 <!-- [ Post Body ] -->
-<div class="container-fluid m-t-80">
+<div class="container-fluid m-t-100">
 	<div class="row">
 	
 		<!-- [ row-1 ] -->

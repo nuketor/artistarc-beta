@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,7 +20,6 @@
     <link href="css/custom.bootstrap.css" rel="stylesheet">
     <!--[padding, margin, grid]-->
     <link href="css/helper.css" rel="stylesheet" type="text/css">
-    
     
     <!-- Test CSS -->
     <link href="css/user_post.css" rel="stylesheet">

@@ -1,7 +1,6 @@
 <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top zero-space shado" role="navigation">
-        <div class="container-fluid" style="margin:0px">
-            <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
@@ -16,7 +15,7 @@
                   </small></h3></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse notf" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">About</a>
@@ -25,6 +24,7 @@
                         <a href="#">Services</a>
                     </li>
                 </ul>
+                
                 <div>
                 <ul class="nav navbar-nav" style="float:right;padding-right:15px;">
                     <li>
@@ -32,12 +32,12 @@
 	                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="dropdown hidden-xs">
+                        <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light" data-toggle="dropdown" aria-expanded="false">
 	                        <span class=" glyphicon glyphicon-bell" aria-hidden="true"></span>
                         </a>
                     </li>
-                    <!--<li>
+                    <li>
 	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic"></a>
 		                    <ul class="dropdown-menu">
@@ -46,12 +46,12 @@
                                         <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
                                         <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
 	                            </ul>
-                    </li>-->
+                    </li>
                 </ul>
                 </div>
             </div> 
             <!-- /.navbar-collapse -->
-                        <div class="navbar-header user-settings" style="float:right">
+                       <!-- <div class="navbar-header user-settings" style="float:right">
                         
 	                    <a href="" style="padding: 10px;" class="dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		                    <img src="./img/user_profile/0001.jpg" class="img-circle usr-pic">
@@ -63,7 +63,8 @@
                                     <li><a href=""><i class="md md-lock"></i> Lock screen</a></li>
                                     <li><a href="./php/logout.php"><i class="md md-settings-power"></i> Logout</a></li>
                             </ul>
-	                 </div>
+	                 </div>-->
+            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>

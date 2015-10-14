@@ -1,7 +1,7 @@
 <!--[ /.container main]-->
 <div class="container-fluid p_top">
 <!-- [ Post Body ] -->
-<div class="container-fluid m-t-10">
+<div class="container-fluid m-t-50">
 	<div class="row">
 	
 		<!-- [ row-1 ] -->
@@ -65,29 +65,25 @@
 							<span class="caption-helper">more samples...</span>
 						</div>
 					</div>
+					<form class="form" role="form" method="post" action="" accept-charset="UTF-8" id="art-post" >
 					<div class="portlet-body">
 						<div class="tab-content">
 							<div class="tab-pane active" id="portlet_tab1">
-								<form class="form" role="form" method="post" action="" accept-charset="UTF-8" id="login-nav" >
-									<input type="text" class="form-control m-b-10" name="user_post" placeholder="Share your art" required="" style="height:100px">
-								</form>
+									<input type="text" class="form-control m-b-10" id="user_post" name="user_post" placeholder="Share your art" required="" style="height:100px">
 							</div>
 							<div class="tab-pane" id="portlet_tab2">
-								<form class="form" role="form" method="post" action="" accept-charset="UTF-8" id="login-nav" >
 									<input type="text" class="form-control m-b-10" name="user_post" placeholder="Share your art" required="" style="height:100px">
-								</form>
 							</div>
 							<div class="tab-pane" id="portlet_tab3">
-								<form class="form" role="form" method="post" action="" accept-charset="UTF-8" id="login-nav" >
 									<input type="text" class="form-control m-b-10" name="user_post" placeholder="Share your art" required="" style="height:100px">
-								</form>
+								
 								</div>
 						</div>
 					</div>
 					<div class="portlet-title" style="margin-bottom:0px">
 						<div class="caption ">
-							<a class="btn waves-effect waves-light" type="submit">Log In</a>
-							<a class="btn waves-effect waves-light" type="submit">Log In</a>
+							<button class="btn waves-light form-group" id="post_submit" value="" type="submit">POST</button>
+							
 						</div>
 						<ul class="nav nav-tabs">
 							<li>
@@ -104,6 +100,31 @@
 							</li>
 						</ul>
 					</div>
+					</form>
+					
+				<script>
+				$(document).ready(function() {
+
+    $('#post_submit').click(function(){
+        var data = $(this).serialize();
+//         alert ('wtf');
+        $.ajax({
+	        url  : "./php/user_post.php",
+	        type : "POST",
+	        data : {
+		        user_post: $("#user_post").val()
+		        },
+	        
+	        success: function() {
+	                //display message back to user here
+	                //$('#result-f').html(data);
+		    }
+	    });
+	      return false;
+          });
+       });
+
+      </script>
 				</div>
 				<!-- END Portlet PORTLET-->
 				</div>
@@ -145,20 +166,9 @@
 				 </div>
 				<!-- [ /. Modal - card-expanded ]-->
 			</div>
-		
-			<div class="col-md-12">
-				<div class="panel panel-default panel-fill">
-					<div class="panel-heading"> 
-						<h3 class="panel-title">Post #2 <small>Ayuit Biu</small></h3> 
-					</div>
-					<div class="about-info-p">
-					<div class="panel-body">
-						<strong>Full Name</strong>
-						<p class="text-muted">Panel content</p>
-					</div>
-					</div>
-				</div>
-			</div>
+			
+<!-- 			<img id='loading' src='img/loading.gif'> -->
+			<div id="demoajax" cellspacing="0"></div>
 			<!-- [ /. cards ] -->
 		</div>
 		</div>

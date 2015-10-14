@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
 
     <meta charset="utf-8">
@@ -14,9 +15,6 @@
     
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="../css/user_post.css" />
-    
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
     
     <!-- Custom CSS -->
     <link href="../css/style.css" rel="stylesheet">
@@ -46,7 +44,7 @@
 
 </head>
 
-<body id="body" data-spy="scroll" data-target=".navbar-fixed-top">
+<body id="body">
 <div class="container-fluid">
 
 <!-- Navigation -->
@@ -136,7 +134,7 @@
     </nav>
     
 <!-- [ Post Body ] -->
-<div class="container-fluid m-t-70">
+<div class="container-fluid m-t-100">
 	<div class="row">
 	
 		<!-- [ row-1 ] -->
@@ -323,11 +321,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-12">
-				<div class="panel panel-default panel-fill">
-					<div id="demoajax" cellspacing="0"></div>
-				</div>
-			</div>
+			<div id="demoajax" cellspacing="0"></div>
 			<!-- [ /. cards ] -->
 		</div>
 		</div>

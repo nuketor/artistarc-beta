@@ -5,13 +5,13 @@
  font-family: 'Nunito', sans-serif;
  font-size: 14px;
  line-height: 1.42857143;
- width: 100%;
- height: 100%;
+/* width: 100%;
+ height: 100%;*/
 }
 
 html {
-    width: 100%;
-    height: 100%;
+/*     width: 100%; */
+/*     height: 100%; */
 }
 
 b, strong 
@@ -90,11 +90,6 @@ b, strong
 
 
 /*--------------------*/
-/*--- text styling ---*/
-
-
-
-/*--------------------*/
 /*---* Login form *---*/
 
 .form-control {
@@ -135,7 +130,11 @@ b, strong
 .w-lg {
     min-width: 140px;
 }
-/*------- color -------*/
+
+
+/*--------------------*/
+/*--- text styling ---*/
+/*------- color ------*/
 
 .text-white
 {
@@ -176,12 +175,16 @@ b, strong
 
 /*--------------------*/
 /*--- navbar-start ---*/
+/*-----scrollbar -----*/
+/*--------------------*/
+
 .navbar-fixed-top {
  z-index:1030!important;
 }
 .navbar-inverse
 {
- background-color: rgba(24, 35, 41, 0.84));
+ border:0px;
+ background-color: rgba(0, 137, 208, 0.82);
  border-color: #E6E3E3;
 }
 
@@ -202,6 +205,20 @@ b, strong
 
 .notf > li:hover {
     background-color: #38608C;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+	background:rgba(0, 137, 208, 0.82)!important;
+    }
 }
 
 /*--------------------*/

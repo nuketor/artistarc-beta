@@ -39,6 +39,9 @@
 .m-l-15 {
     margin-left: 15px;
 }
+.m-l-20 {
+    margin-left: 20px;
+}
 .m-l-25 {
     margin-left: 25px;
 }
@@ -62,6 +65,9 @@
 }
 .m-t-40 {
     margin-top: 40px !important;
+}
+.m-t-50 {
+    margin-top: 45px !important;
 }
 .m-t-70 {
     margin-top: 70px !important;

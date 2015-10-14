@@ -32,7 +32,7 @@ function showData($data,$con,$limit){
 					</div>
 				</div>
 		</div>";
-	echo $row . "</br>";
+// 	echo $row . "</br>";
    }
    $str.="<input type='hidden' class='nextpage' value='".($page+1)."'><input type='hidden' class='isload' value='true'>";
    }else{

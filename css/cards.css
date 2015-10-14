@@ -23,3 +23,28 @@ stream.active { left: 50!important; }
 
 /*-------------------------*/
 /*--------- POST ----------*/
+
+.post-user {
+    left: 10%;
+    top: -44px;
+    position: relative;
+}
+
+.post-head {
+    height: 65px;
+    border: none!important;
+}
+.post-time {
+    position: relative;
+    top: -35px;
+    left: 62px;
+}
+.post-body {
+  padding:10px!important;
+  
+}
+.post-social {
+  padding-top:15px;
+  padding-left:2px;
+  
+}
