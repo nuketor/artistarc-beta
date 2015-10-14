@@ -17,7 +17,7 @@ session_start();
   }
   
   $sql = "select * from user_post order by PID asc limit $start,$limit";
-//   $str='start';
+   $str='';
   $data = $con->query($sql);
   if($data!=null && $data->num_rows>0){
    while( $row = $data->fetch_array(MYSQLI_ASSOC)){
