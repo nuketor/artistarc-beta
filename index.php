@@ -2,7 +2,7 @@
 //signup.php
 include 'php/connect.php';
 include 'php/header.php';
-include 'php/navbar.php';
+include 'php/navbar_s.php';
 ?>
 
 
@@ -21,5 +21,5 @@ include 'php/navbar.php';
 
         <hr>
         
-    <?php include 'php/register.php'; ?>
+    <?php include 'register.php'; ?>
     <?php include 'php/footer.php';   ?>
