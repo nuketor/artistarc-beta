@@ -97,7 +97,7 @@ echo'
 				$body = "Thank you for login. <br />";
 				echo "<br /><h3>Thank you for login! .</h3>";
 				
-				session_start();
+//				session_start();
 				//storing session
 				$_SESSION['signed_in'] = true;
 				
