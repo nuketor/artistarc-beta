@@ -18,6 +18,15 @@
 .p-b-10 {
     padding-bottom: 10px !important;
 }
+.p-l-15 {
+    padding-left:15px;
+}
+.p-r-15 {
+    padding-right:15px;
+}
+.p-r-40 {
+    padding-right:40px;
+}
 .m-0 {
     margin: 0px !important;
 }
@@ -77,6 +86,9 @@
 }
 .m-t-100 {
     margin-top: 100px !important;
+}
+.m-t-153 {
+    margin-top: 153px !important;
 }
 .m-b-0 {
     margin-bottom: 0px;

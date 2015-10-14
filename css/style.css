@@ -14,6 +14,11 @@ html {
 /*     height: 100%; */
 }
 
+.hide {
+  height: 0;
+  visibility: hidden;
+}
+
 b, strong 
 {
  -webkit-text-size-adjust: 100%;
@@ -186,6 +191,7 @@ b, strong
  border:0px;
  background-color: rgba(0, 137, 208, 0.82);
  border-color: #E6E3E3;
+/*  height:50px; */
 }
 
 .navbar-inverse .navbar-brand
@@ -207,15 +213,22 @@ b, strong
     background-color: #38608C;
 }
 
+.wat{
+  height:200px;
+
+}
+
 @media(min-width:767px) {
     .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
+/*         height:200px; */
+        padding: 10px 0;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        transition: .7s ease-in-out;
     }
 
     .top-nav-collapse {
+        height:5px;
         padding: 0;
 	background:rgba(0, 137, 208, 0.82)!important;
     }
