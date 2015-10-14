@@ -1,7 +1,7 @@
 <!--[ /.container main]-->
 <div class="container-fluid p_top">
 <!-- [ Post Body ] -->
-<div class="container-fluid m-t-50">
+<div class="container-fluid m-t-153">
 	<div class="row">
 	
 		<!-- [ row-1 ] -->
@@ -167,6 +167,42 @@
 				<!-- [ /. Modal - card-expanded ]-->
 			</div>
 			
+			<div class='col-md-12'>
+				<div class='panel panel-default panel-fill'>
+					<div class='panel-heading post-head'> 
+					
+						<a href='' style='padding: 10px;' class='p-0 dropdown-toggle dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+					                    <img src='./img/user_profile/0001.jpg' class='img-circle post-usr-pic'>
+							</a>
+					
+						<h3 class='panel-title post-user'><?php session_start(); echo $_SESSION['UserName'] ; ?></h3> 
+						
+						<small class='post-time'><p class='text-muted'>5hrs ago</p></small>
+					</div>
+					<div class='panel-body post-body'>
+					
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet sodales dolor, non suscipit mi. Fusce sem tellus, feugiat in arcu ut, molestie malesuada augue. Aenean laoreet leo vitae urna iaculis eleifend. Integer facilisis vulputate mauris in molestie. Nunc sit amet dapibus elit.
+					</br>
+						<span class='label label-default'>#tag1</span>
+						<span class='label label-primary'>#tag2</span>
+						<span class='label label-success'>#tag3</span>
+						<span class='label label-info'>#tag4</span>
+						<span class='label label-warning'>#tag5</span>
+						<span class='label label-danger'>#tag6</span>
+						</br>
+					<div class='post-social' >
+						 <span class='glyphicon glyphicon-star-empty' aria-hidden='true'></span>
+						 <span class='glyphicon glyphicon-comment m-l-15' aria-hidden='true'></span>
+						 <span class='glyphicon glyphicon-share m-l-20' aria-hidden='true'></span>
+						 
+					</div>
+					</div>
+					<div class='panel-footer text-muted'>
+							COMMENT!
+					</div>
+				</div>
+		</div>
+			
 <!-- 			<img id='loading' src='img/loading.gif'> -->
 			<div id="demoajax" cellspacing="0"></div>
 			<!-- [ /. cards ] -->
@@ -196,6 +232,22 @@
 					</div>
 				</div>
 			</div>
+			
+			<div class="col-md-12">
+			 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			 
+			 <!-- Indicators --> <ol class="carousel-indicators"> <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li> <li data-target="#carousel-example-generic" data-slide-to="1"></li> <li data-target="#carousel-example-generic" data-slide-to="2"></li> </ol>
+			 
+			 <!-- Wrapper for slides --> <div class="carousel-inner"> <div class="item active"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div> 
+			 
+			 <div class="caption"> <p class="text-info lead adjust2">I can't wait to test this out.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example1.com</cite></small> </blockquote>  </div> </div> </div> </div> </div> <div class="item"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div> 
+			 
+			 <div class="caption"> <p class="text-info lead adjust2">I can't wait to test this out.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example2.com</cite></small> </blockquote> </div> </div> </div> </div> </div> <div class="item"> <div class="row"> <div class="col-xs-12"> <div class="thumbnail adjust1"> <div class="col-md-2 col-sm-2 col-xs-12"> <img class="media-object img-rounded img-responsive" src="http://placehold.it/100"> </div> 
+			 
+			 <div class="caption"> <p class="text-info lead adjust2">I can't wait to test this out.</p> <p><span class="glyphicon glyphicon-thumbs-up"></span> This is a testimonial window. Feedback of user can be displayed here.</p> <blockquote class="adjust2"> <p>Abhijit Goswami</p> <small><cite title="Source Title"><i class="glyphicon glyphicon-globe"></i> www.example3.com</cite></small> </blockquote> </div> </div> </div> </div> </div> </div>
+			 
+			 <!-- Controls --> <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left p-l-15"></span> </a> <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right p-r-40"></span> </a>
+			 </div></div>
 			<!-- [ /. cards ] -->
 		</div>
 		</div>
