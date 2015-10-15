@@ -52,9 +52,18 @@ session_start();
 						 <span class='glyphicon glyphicon-share m-l-20' aria-hidden='true'></span>
 					</div>
 					</div>
-					<div class='panel-footer text-muted'>
-							COMMENT!
-					</div>
+					<div class='commnt-box'>
+						<div class='panel-footer' id='commnt-box1'>
+						  <h4 class='panel-title'>
+					            Comment
+					          </h4>
+						</div>
+					
+						<div id='collapse1' class='panel-collapse collapse'>
+					          1<br>2<br>3<br>
+					          <div class='panel-footer'>Write a comment!</div>
+					        </div>
+				        </div>
 				</div>
 		</div>";
 // 	echo $row . "</br>";
