@@ -189,9 +189,10 @@ b, strong
 .navbar-inverse
 {
  border:0px;
- background-color: rgba(0, 137, 208, 0.82);
+ background-color: rgb(0, 137, 208);
  border-color: #E6E3E3;
 /*  height:50px; */
+position:absolute;
 }
 
 .navbar-inverse .navbar-brand
@@ -215,25 +216,52 @@ b, strong
 
 .wat{
   height:200px;
-
+ -webkit-transition: height .7s ease-in-out; /* Safari */
+  -webkit-transition-delay: .7s ease-in-out; /* Safari */
+  transition: height .7s ease-in-out;
+  transition-delay: .7s ease-in-out;
 }
-
 @media(min-width:767px) {
     .navbar {
 /*         height:200px; */
+	position:fixed;
         padding: 10px 0;
         -webkit-transition: .7s ease-in-out;
         -moz-transition: .7s ease-in-out;
         transition: .7s ease-in-out;
     }
 
+     .navbar2 {
+/*         height:200px; */
+	position:relative;
+        padding: 10px 0;
+        -webkit-transition: .7s ease-in-out;
+        -moz-transition: .7s ease-in-out;
+        transition: .7s ease-in-out;
+    }
+    
     .top-nav-collapse {
         height:5px;
         padding: 0;
-	background:rgba(0, 137, 208, 0.82)!important;
+	background:rgb(30, 119, 165)!important;
     }
 }
-
+.faker{
+  width:100%;
+  height:100px;
+  position:relative;
+  -webkit-transition: width .7s linear ; /* For Safari 3.1 to 6.0 */
+  transition: height .7s linear;
+}
+.expand{
+  height:220px;
+  
+}
+.usr-profile-pic{
+  height:80px;
+  width:80px;
+  
+}
 /*--------------------*/
 /*---user settings----*/
 
@@ -340,7 +368,7 @@ b, strong
 .btn, .btn-large {
   text-decoration: none;
   color: #FFF;
-  background-color: #ff4081;
+  background-color: rgb(106, 105, 121);
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: 0.2s ease-out;
