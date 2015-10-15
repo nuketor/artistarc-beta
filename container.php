@@ -1,7 +1,7 @@
 <!--[ /.container main]-->
-<div class="container-fluid p_top">
+<div class="container-fluid ">
 <!-- [ Post Body ] -->
-<div class="container-fluid m-t-153">
+<div class="container-fluid ">
 	<div class="row">
 	
 		<!-- [ row-1 ] -->
@@ -23,18 +23,21 @@
 			<div class="col-md-12">
 				<div class="panel panel-default panel-fill">
 				<div class="panel-heading"> 
-					<h3 class="panel-title">Personal Information</h3> 
+					<h3 class="panel-title">Troops</h3> 
 				</div>
-					<div class="panel-body">
-						Panel content
+					<div class="panel-body p-t-0">
+						. Create . View . Edit .
 					</div>
 				</div>
 			</div>
 		
 			<div class="col-md-12">
-				<div class="panel panel-default">
-					<div class="panel-body">
-						Panel content
+				<div class="panel panel-default panel-fill">
+				<div class="panel-heading"> 
+					<h3 class="panel-title">Page</h3> 
+				</div>
+					<div class="panel-body p-t-0">
+						. Create . View . Edit .
 					</div>
 				</div>
 			</div>
@@ -52,7 +55,7 @@
 			<div class="col-md-12">
 				<div class="panel panel-default panel-fill" >
 					<!-- BEGIN Portlet PORTLET-->
-				<div class="portlet p-t-10"  style="margin-bottom:0px; padding-bottom:0px;">
+				<div class="portlet p-t-10"  style="margin-bottom:0px; padding-bottom:0px; padding:10px;">
 					<div class="portlet-title">
 						<div class="caption caption-purple">
 							<a href="" style="padding: 10px;" class="p-0 dropdown-toggle dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
