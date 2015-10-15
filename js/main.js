@@ -5,4 +5,3 @@ $('#mobile-nav').click(function(event) {
 $('#bs-example-navbar-collapse-1').click(function(event) {
 	$('#stream').toggleClass('active');
 	});
-
